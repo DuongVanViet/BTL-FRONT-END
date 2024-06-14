@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BKT</title>
+    <link rel="stylesheet" href="chủ.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function(){
+        $("#advance").click(function(){
+            $("p").toggle(1000);
+        });
+    });
+</script> 
+</head>
+  <body>
+    <script type="text/javascript" language="javascript">
+        var anhVao1 = new Image();
+        var anhRa1 = new Image();
+        function loadAnh1(){
+        anhVao1 = "poscher6.jpg";
+        anhRa1 = "poscher4.jpg";
+        }
+        function vaoAnh1(){
+            document.anh1.src="poscher6.jpg";
+        }
+        function raAnh1(){
+            document.anh1.src="poscher4.jpg";
+        }
+        var anhVao2 = new Image();
+        var anhRa2 = new Image();
+        function loadAnh2(){
+        anhVao2 = "poscher1.jpg";
+        anhRa2 = "volangposcher.jpg";
+        }
+        function vaoAnh2(){
+            document.anh2.src="poscher1.jpg";
+        }
+        function raAnh2(){
+            document.anh2.src="volangposcher.jpg";
+        }
+        var anhVao2 = new Image();
+        var anhRa2 = new Image();
+        function loadAnh3(){
+        anhVao3 = "poscher2.jpg";
+        anhRa3 = "hethonglaiposcher.jpg";
+        }
+        function vaoAnh3(){
+            document.anh3.src="poscher2.jpg";
+        }
+        function raAnh3(){
+            document.anh3.src="hethonglaiposcher.jpg";
+        }
+        function loadAnh4(){
+        anhVao4 = "poscher5.jpg";
+        anhRa4 = "TuaBin.jpg";
+        }
+        function vaoAnh4(){
+            document.anh4.src="poscher5.jpg";
+        }
+        function raAnh4(){
+            document.anh4.src="TuaBin.jpg";
+        }
+        anhVao5 = "submit.jpg";
+        anhRa5 = "son.jpg";
+        function vaoAnh5(){
+            document.anh5.src="submit.jpg";
+        }
+        function raAnh5(){
+            document.anh5.src="son.jpg";
+        }
+        anhVao6 = "Gthieu1.jpg";
+        anhRa6 = "manhinh.jpg";
+        function vaoAnh6(){
+            document.anh6.src="Gthieu1.jpg";
+        }
+        function raAnh6(){
+            document.anh6.src="manhinh.jpg";
+        }
+    </script>  
+    <div class="container">
+            <div class="container mt-3">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggler="collpase" data-bs-target="#mynavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collpase navbar-collpase" id="mynavbar">
+                      <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/Trangch%E1%BB%A7.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/S%E1%BA%A3n%20Ph%E1%BA%A9m.html">Phụ kiện an toàn</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href=""><a class="nav-link" href="http://127.0.0.1:5500/XeMoi.html">Xe mới</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href=""><a class="nav-link" href="http://127.0.0.1:5500/GTHIEU.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://127.0.0.1:5500/Lhe.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item dropdown" style="background-color: #549797;">
+                          <div class="nav-item dropdown-toggle"role="button" data-bs-toggle="dropdown" style="text-align: center; margin-bottom: 10px;">Yêu cầu</div>
+                          <ul class="dropdown-menu" style="margin-left: 35px;">
+                            <li><a class="dropdow-item" href="http://127.0.0.1:5500/%C4%90%C4%83ngnh%E1%BA%ADp.html"><button type="button" id="login">Đăng nhập</button></a></li>
+                            <li><a class="dropdow-item" href="http://127.0.0.1:5500/%C4%90%C4%83ngKy.html"><button type="button" id="submit">Đăng ký</button></a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" style="width: 725px; height: 35px; margin-left: 115px;">
+                        <button class="btn btn-primary" type="submit" style="margin-left: 10px;">Tìm kiếm</button>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
+                <div class="container-fluid mt-3">
+                  <h1 style="width: 1295px;height: 55px;text-align: center; margin-top: 95px; opacity: 0.7;">Trang chủ</h1>
+                </div>
+        <div id="silde">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="poscher1.jpg" alt="Los Angeles" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="poscheDemo1.jpg" alt="Chicago" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="poscherDemo2.jpg" alt="New York" class="d-block">
+      </div>
+      <div class="carousel-item">
+        <img src="poscheDemp3.jpg" alt="New York" class="d-block">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+        </article>
+               
+    </div>
+        <article>
+            <h3 style=" border: 1px solid rgb(0, 255, 234);">Thông Tin Về Xe</h3>
+            <div class="main">
+            <div class="item">    
+                <div onLoad="loadAnh1">            
+                <h2 style="text-align: center; margin-left: 30px; width: 350px" id="tieude">Nguyên tắc của các dòng xe thể thao động cơ đặt giữa</h2> 
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="poscher4.jpg" name="anh1" alt="" id="img" style="width: 380px; height: 250px; margin-top : 55px; margin-bottom: 12px; margin-left: 15px;"
+                onmouseover="vaoAnh1()";
+                onmouseout="raAnh1()";
+                /></a>
+                </div>
+                <div class="content" style="margin-left: 45px; width: 350px;">
+                 <h4 style="text-align: justify; font-family:serif">Điều gì làm cho dòng xe 718 hoàn toàn mới đặc biệt đến thế? Chính là hiệu suất, điều khiển,
+                    thiết kế và thể tích rộng rãi của cả hai khoang hành lý. Nhưng trên hết là : Khái niệm động
+                    cơ đặt giữa làm cho mọi điều trên khả thi ngay từ đầu.
+                 </h4>
+                </div>
+            </div>
+            <div class="item" onLoad="loadAnh2">
+                <h2 style="text-align: center; margin-bottom: 15px; margin-left: 165px; margin-top: 45px;" id="tieude">Tiện nghi</h2>
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="volangposcher.jpg" name="anh2" alt="" id="img" style="width: 380px; height: 250px; margin-top: 78px; margin-bottom:12px; margin-left: 55px; margin-right: 85px;"
+                onmouseover="vaoAnh2()";
+                onmouseout="raAnh2()";
+                /></a>
+                <div class="content" style="margin-left: 47px; width: 375px;">
+                <h4 style="text-align: justify;font-family: serif; margin-left: 25px;">Vô-lăng thể thao với thiết kế ba chấu có trọng lượng nhẹ
+                và đầy đủ chức năng. Tấm đệm nhỏ nằm giữa và đường viền mạ crôm ôm lấy tấm khiên Posche - đều lấy cảm hứng từ
+                vô lăng chiếc 918 Spyder - làm chất cá tính thể thao.</h4>
+            
+                </div>
+            </div>
+            <div class="item">
+            <h2 style="text-align: center; margin-bottom: 15px; margin-left: 100px; width:400px; margin-top: 47px;" id="tieude">Hệ thống lái</h2>
+            <div class="item">
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="hethonglaiposcher.jpg" name="anh3" alt="" id="img"  style="width: 380px; height: 250px; margin-top: 70px; margin-bottom:12px;  margin-left: 85px"
+                onmouseover="vaoAnh3()";
+                onmouseout="raAnh3()";
+                /></a>
+                <div class="content" style="width: 350px; margin-left: 95px;">
+                <h4 style="text-align: justify; font-family:serif">
+                Chỉ có khúc cua mới làm bộc lộ chiếc xe của bạn. Vì thế, hệ thống treo có thể làm chủ được mọi thách thức mới quan trọng hơn
+                hết và xứng tầm với động cơ.
+                </h4>
+                </div>
+            </div>
+            </div>
+              <div style="clear: both;"></div>
+            </div>
+        </article> 
+        <hr style="color: white; border: 2px solid rgb(0, 255, 255);"> 
+        <article>
+<div class="lose_main">
+            <div class="lose_item">                 
+                <h2 style="text-align: center; margin-bottom: 10px; margin-left: 65px; width:300px; margin-top: 25px;" id="tieude">Tua-pin biến thiên hình dọc</h2>
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="TuaBin.jpg" alt="" name="anh4" id="img" style="width: 380px; height: 250px; margin-top: 68px; margin-bottom:12px;  margin-left: 26px"
+                onmouseover="vaoAnh4()";
+                onmouseout="raAnh4()";
+                /></a>
+                <div class="content" style="width: 300px; margin-left: 65px;">
+                <h4 style="text-align: justify; font-family:serif">
+                Các cánh quạt tua-bin được điều chỉnh để kết hợp với bộ tăng áp nạp khí xả nhỏ và lớn.
+                </h4>
+                </div>
+
+            </div>
+            <div class="lose_item">
+                <h2 style="text-align: center; margin-bottom: 10px; margin-left: 130px; width:300px; margin-top: 25px;" id="tieude">Hiệu quả nhiên liệu và tái chế</h2>
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="son.jpg" alt="" name="anh5" id="img" style="width: 380px; height: 250px; margin-top: 68px; margin-bottom:12px;  margin-left: 68px"
+                onmouseover="vaoAnh5()";
+                onmouseout="raAnh5()";
+                /></a>
+                <div class="content" style="margin-left: 80px; width: 350px;">
+                <h4 style="text-align: justify; font-family:serif">
+                Cấu trúc nhẹ và thông minh là điều không thể thiếu khi nói về Posche. Mọi loại vật liều đều được lựa chọn một cách có chiến lược
+                những nước sơn được sử dụng chủ yếu là loại sơn gốc nước thân thiện với môi trường.
+                </h4>
+                </div>
+            </div>
+            <div class="lose_item">
+                <h2 style="text-align: center; margin-bottom: 10px; margin-left: 145px; width:300px; margin-top: 25px;" id="tieude">Hệ thống quản lý liên lạc</h2>
+                <a href="http://127.0.0.1:5500/GTHIEU.html"><img src="manhinh.jpg" name="anh6" alt="" id="img" style="width: 380px; height: 250px; margin-top: 68px; margin-bottom:12px;  margin-left: 105px"
+                onmouseover="vaoAnh6()";
+                onmouseout="raAnh6()";
+                /></a>
+                <div class="content" style="width: 350px; margin-left: 115px;">
+                <h4 style="text-align: justify; font-family:serif">
+                (PCM) chính là hệ thống quản lý liên lạc của Posche. Hoạt động thông qua màn hình đa điểm 7 inch hoàn toàn mới.
+                Cảm biến khoảng cách kích hoạt màn hình hiện thị danh mục nội dung liên quan hỗ trợ thao tác đa điểm dễ dàng.
+                </h4>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <button type="button" id="advance" value="">Tìm hiểu thêm</button>
+            <a href="http://127.0.0.1:5500/GTHIEU.html" id="add"><p id="add">Thông tin về các loại xe mới</p></a>
+            <a href="http://127.0.0.1:5500/XeMoi.html"id=add><p id="add">Thông tin xe mới</p></a>
+            <a href="http://127.0.0.1:5500/S%E1%BA%A3n%20Ph%E1%BA%A9m.html" id="add"><p id="add">Phụ kiện cho xe</p></a>
+            </div>
+        </article>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid_gow">
+                    <div class="column">
+                        <h3 class="footer_heading">CÔNG TY TNHH TM DV KD PHỤ TÙNG Ô TÔ </h3>
+                        <ul class="footer-menu">
+                            <li class="footer-item">
+                                 
+                               <a href="" class="footer-item_link">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAq9JREFUSEvFlkmojmEUx39XZMiUm5XYKIVCSDdXSYhMSayMKSxsrsW9FlwSipRiIQuzUpTMhEhmK6UoQ7IwZSFDZMjw/OtcnR7P+333e7+3vmf1jud3znPO+Z+njhqtuhpxKQfuDSwAHgDXi3SyFLiXwYYBf4AlwKGi4Fng7sA1YJQDFQpPgbsBF4FxBr1rDnSy+6XA/mojT4HPADPM8HlgNjAROA0UBo/BQ4CHEfSn3U8HTjj4IuBw3shjcCNw04wpyquR4XnAMXv2AagHfueBx+BBwGMzNB844oyqtc4BY+3ZJWBKHqj+icHK4TegA7AxRLPOGb7hCk59PQF4XxRYdh4Bg62ypzrDnwG12VOgoRpoKmI92w2sAL4AfYAfBr8c8j8pvHsD9Ad+5Y02C6z2UfVqzQTO2vVCp1xzgeNFg5XntxbtKetjMboCrwEV2bPg0GjgY154lmRuAtaYUSnYLbteDWyxaxWYevulgys1R8OODQdagANZjmWB+wKvTCwEGGk51fcXXBt9DTuzE9hmgCvACAfLlNdS02mDa6e1wYnNZlBbLS0f4wBSt3dAv0SESXgpcGeTz4FmbBmwx65VB6sAOdQjgqnft5vCZWp7uYOAtk351cTSWgnsinLaHHpbKqcWuxe+nwyo56eFbT+ZNVjKgcXw7aX7reFgsB743o6KjuGaBbez+jhlTz180Ens81BsrVbBpYRE6RJIxanVBOyoBKxvZxmoi/PshVX0PtN477T6XkNFmq51HxhvaSh72IujHxByudek07+TrGqOq/XkjHpbh0SBtO4A0v1PbT+1J8eprZeoLA8wzWe/A6lvdXbTiUba/2/lBbcZ6AksDpHOsZHZMSKrLjRw/ivEasGeo0IaGnpYzmg9MW1P7ULFOU4ayfOwyIgr4tcM/BfAnnofQnzeRAAAAABJRU5ErkJggg=="/>
+                                Hotline: 0926518573 
+                            </a>
+                            </li> 
+                            
+                            <li class="footer-item"><a href="" class="footer-item_link">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcpJREFUSEvt1s+LTlEcx/HXyI8lJQvJj39Amo1kY8POj9KUFAs2UtOkbPxYIMRCEQs7JVNSUn7szGJ2lIWFLGVSspAFm2kQzlfn6rh55j7zuD3P5rmrc8/9ns/7ez/ne36MGNAzMiCuIbhvztetPoIT2NByBjM4j1uVbgnehumWgXW5zXgRnSX4FC7myHMtJ3Am653E5Tr4LKqAg5hsCX4Ad4ofCs5ff1yC49tNHMPXHhNYims4WowPJxvBEf8Su/B+gfA1eIzR2rhGcNgcFsXzCfvxtEv4DtzFyhxfav0THPP724Y8BRO4kgpuCX7k+Y/i+9khgSjU02lsiC9K7W84nhK4UYzpChz6W/AIqzJsCmP4XIMvx31sz/0fsBfP83uVbKPV5TJbjQc5idB5h514lUU34knaHNbl94DtxsciuZ7AMX4xrmI8i82lBA7nduxGy3L7erb3e82RnsGVzj7cLkBV/ywO4V6H+f9vcOhuSsvkIdZnyJu07Pbg9TxV3wo49FcgbI1qj+r/0rDUWgN3uaT/hA3BfT8W4+i9VG2N1UT04yKwFc/q4HiPIywO67ULrZ6G+LdpE7rQ6erTMmt+ueG9um92D8zqXxs3ZB/GykYiAAAAAElFTkSuQmCC"/>
+                                Email:vanviet2102005@gmail.com
+                            </a>
+                            </li>
+                            <li class="footer-item">
+                                 
+                                <a href="" class="footer-item_link">
+                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAq9JREFUSEvFlkmojmEUx39XZMiUm5XYKIVCSDdXSYhMSayMKSxsrsW9FlwSipRiIQuzUpTMhEhmK6UoQ7IwZSFDZMjw/OtcnR7P+333e7+3vmf1jud3znPO+Z+njhqtuhpxKQfuDSwAHgDXi3SyFLiXwYYBf4AlwKGi4Fng7sA1YJQDFQpPgbsBF4FxBr1rDnSy+6XA/mojT4HPADPM8HlgNjAROA0UBo/BQ4CHEfSn3U8HTjj4IuBw3shjcCNw04wpyquR4XnAMXv2AagHfueBx+BBwGMzNB844oyqtc4BY+3ZJWBKHqj+icHK4TegA7AxRLPOGb7hCk59PQF4XxRYdh4Bg62ypzrDnwG12VOgoRpoKmI92w2sAL4AfYAfBr8c8j8pvHsD9Ad+5Y02C6z2UfVqzQTO2vVCp1xzgeNFg5XntxbtKetjMboCrwEV2bPg0GjgY154lmRuAtaYUSnYLbteDWyxaxWYevulgys1R8OODQdagANZjmWB+wKvTCwEGGk51fcXXBt9DTuzE9hmgCvACAfLlNdS02mDa6e1wYnNZlBbLS0f4wBSt3dAv0SESXgpcGeTz4FmbBmwx65VB6sAOdQjgqnft5vCZWp7uYOAtk351cTSWgnsinLaHHpbKqcWuxe+nwyo56eFbT+ZNVjKgcXw7aX7reFgsB743o6KjuGaBbez+jhlTz180Ens81BsrVbBpYRE6RJIxanVBOyoBKxvZxmoi/PshVX0PtN477T6XkNFmq51HxhvaSh72IujHxByudek07+TrGqOq/XkjHpbh0SBtO4A0v1PbT+1J8eprZeoLA8wzWe/A6lvdXbTiUba/2/lBbcZ6AksDpHOsZHZMSKrLjRw/ivEasGeo0IaGnpYzmg9MW1P7ULFOU4ayfOwyIgr4tcM/BfAnnofQnzeRAAAAABJRU5ErkJggg=="/>
+                                 ID: 1771020743 
+                             </a>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="footer_heading">HỖ TRỢ KHÁCH HÀNG</h3>
+                        <ul class="footer-menu">
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Bảo mật thông tin</a>
+                            </li> 
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Bảo hành-đổi trả-hoàn tiền</a>
+                            </li> 
+                            <li class="footer-item">
+                                <a href="http://127.0.0.1:5500/V%E1%BA%ADnchuyen.html" class="footer-item_link">Giao hàng-Vận chuyển</a>
+                            </li> 
+                            <li class="footer-item"> 
+                                <a href="http://127.0.0.1:5500/Thanh%20to%C3%A1n.html" class="footer-item_link">Thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="footer_heading">ĐỊA CHỈ</h3>
+                        <ul class="footer-menu">
+                            <div class="footer-download">
+                                <iframe  id="diachi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27602.050714810473!2d105.70277382892284!3d20.933118377339998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452eaa9c461c3%3A0x2a3e1c421f299adc!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyDEkOG6oWkgTmFt!5e0!3m2!1svi!2s!4v1718121085777!5m2!1svi!2s" width="540" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="footer-app">
+
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>

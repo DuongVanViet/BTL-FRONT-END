@@ -1,0 +1,49 @@
+#tieude{
+    width: 65px;
+    height: 100px;
+}
+
+#silde{
+    margin-top: -15px;
+}
+.carousel-item{
+    text-align: center;
+    margin-left:-68px;
+    justify-content: center;
+    padding-left: 300px;
+    margin-top: 15px;
+}
+#text-head{
+    font-size: 300%;
+    text-align: center;
+    font-family:serif;
+    margin-top: 15px;
+    color: aqua;
+    opacity: 0.7;
+}
+.item{
+   display: inline-block;
+}
+.cm1{
+    margin-bottom: 55px;
+}
+.cm2{
+    margin-bottom: 65px;
+}
+#ct{
+    margin-left: 460px;
+}
+.ha{
+    transition: transform 0.3s;
+}
+.ha:hover{
+    transform: translateY(-20px); 
+}
+#back{
+    border: 1px solid white;
+    margin-top: 45px;
+}
+#back:hover{
+    color: red;
+    border: 1px solid red;
+}

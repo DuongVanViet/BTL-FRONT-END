@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ET-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <link href="đăngnhap.css" rel="stylesheet">
+    <link href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <title>Đăng nhập tài khoản</title>
+</head>
+<body>
+    <div id="login">
+    <form action="" id="form-login">
+        <a href="http://127.0.0.1:5500/Trangch%E1%BB%A7.html" style="text-decoration: none;"><h3 id="first">x</h3></a>
+        <h1 class="form-heading" style="color: white">ĐĂNG NHẬP !</h1>
+        <div class="form-ground">
+            <i class='fas fa-user'></i>
+            <input type="text" id="dangnhap" class="form-input" placeholder="Tên đăng nhập">
+        </div>  
+        <div class="form-ground">
+            <i class='fas fa-key'></i>
+            <input type="password" id="matkhau" class="form-input" placeholder="Mật khẩu">
+            <div class="eyes"></div>
+            <i class='far fa-eye'></i>
+        </div>
+        <input type="button" formaction="" value="Đăng nhập" class="form-submit" onclick="KT_Rong()">
+        <a href="http://127.0.0.1:5500/%C4%90%C4%83ngKy.html"><input type="button" value="Đăng ký" class="form-sub"></a>
+    </form>
+    </div>
+</body>
+<script type="text/javascript" language="javascript">
+    function KT_Rong(){
+        let tendn = document.getElementById("dangnhap").value;
+        if(tendn==""){
+            alert("Vui lòng nhập tên đăng nhập !");
+            tendn.focus();
+        }
+        let pass = document.getElementById("matkhau").value;
+        if(pass==""){
+            alert("Vui lòng nhập mật khẩu !");
+            pass.focus();
+        }
+        if(pass.length<8){
+            alert("Mật khẩu không hợp lệ. Vui lòng nhập lại!");
+        }else
+        if(tendn==="1771020743" && pass==="1771020743"){
+            alert("Đăng nhập thành công !")
+           window.location.href='Trangchủ.html';
+        }
+        else{
+            document.getElementById("dangnhap").value="";
+            document.getElementById("matkhau").value="";
+            document.getElementById("dangnhap").focus();
+
+        }
+        if(tendn !="1771020743" || pass!="1771020743"){
+            alert("Sai thông tin đăng nhập !");
+            tendn.focus();
+        }
+    }
+</script>
+</html>

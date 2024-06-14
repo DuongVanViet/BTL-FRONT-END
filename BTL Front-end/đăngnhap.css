@@ -1,0 +1,88 @@
+body{
+    background-image: url("https://th.bing.com/th/id/R.8fadc7b7038ba04dd267672cd0bbae9c?rik=CK%2bikv3FUJobig&pid=ImgRaw&r=0");
+    background-size: cover;
+    font-size: 15px;
+    background-position-y: -100px;
+}
+#first{
+    color: rgb(255, 115, 0);
+    width: 35px;
+    height: 30px;
+    border: solid 2px rgb(255, 255, 255);
+    text-align: center;
+    background: transparent;
+    transition: 0.25 ease-in-out;
+}
+#first:hover{
+    border: 2px solid rgba(250, 100, 0, 0.876);
+}
+#login{
+    font-size: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#form-login{ 
+    max-width: 400px;
+    background:rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(0, 68, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+    color: aqua;
+}
+.form-ground{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-ground i{
+    color: #fff;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.form-input::placeholder{
+    color: #fff;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color:#fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25 ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid rgb(53, 69, 243);
+}
+.form-sub{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color:#fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25 ease-in-out;
+    margin-top: 30px;
+}
+.form-sub:hover{
+    border: 1px solid rgb(53, 243, 53);
+}
+

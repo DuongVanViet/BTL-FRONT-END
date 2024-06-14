@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .Sell{
+            font-size: 15px;
+            margin-top: 200px;
+            margin-left: 650px;
+            justify-content: center;
+            width: 650px;
+            height: 450px;
+            border: 1px solid rgb(19, 220, 255);
+            background-color:#bebebe;
+            text-align: center;
+        }
+        #headline{
+            border: 2px solid rgb(0, 255, 247);
+            margin-left: 218px;
+            width: 200px;
+            padding-bottom: 15px;
+        }
+        .Pay{
+            padding: 10px 5px;
+        }
+        .font-pay{
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-size: 120%;
+        }
+        #font-thanhtoan{
+            outline: 0;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            width: 150px;
+            height: 35px;
+            background: transparent;
+            text-transform: uppercase;
+            transition: 0.25 ease-in-out;
+        }
+        #font-thanhtoan:hover{
+            border: 2px solid rgb(0, 255, 17);
+        }
+        .label{
+            margin-left: 0px;
+        }
+        .n{
+            width: 75px;
+            margin-left: 450px;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+        function hien_thi(visible){
+            var KieuTT = document.getElementById("different-pay");
+            KieuTT.style.display=visible?"":none;
+            var TTTK = document.getElementById(TT-pay);
+            TTTK.style.display=visible?"":none;
+        }
+        </script>
+        <h1 id="headline">Thanh toán</h1>
+    </head>
+    <body class="Sell">
+        <td class=""><label for="pay-money" class="label">Chọn phương thức thành toán:</label></td>
+        <td>
+        <div class="font-pay">
+                <input type="radio" name="typepay" id="NganHang" value="Ngân hàng" class="tt" onclick="hien_thi(true)">Ngân hàng
+                <input type="radio" name="typepay" id="TheTinDung" value="Thẻ tín dụng" class="tt" onclick="hien_thi(false)">Thẻ tín dụng
+                <input type="radio" name="typepay" id="TheGhiNo" value="Thẻ ghi nợ" class="tt" onclick="hien_thi(false)">Thẻ ghi nợ
+                <input type="radio" name="typepay" id="Nhan" value="Thanh toán trực tiếp" class="tt" onclick="hien_thi(false)">Thanh toán trực tiếp
+                <input type="radio" name="typepay" id="Khac" value="Khác" class="tt" onclick="hien_thi(true)">Khác
+         </div>
+         <div class="form-grounp" id="different-pay" style="display:none">
+            <select class="n" style="margin-left: 220px; width: 320px;height: 32px;margin-bottom: 15px;">
+                <div class="lb2" style=" border: solid 1px rgb(253, 251, 251); background-color: grey; margin-left: 130px">
+                    <option value="TraGop" name="tragop" id="tragopp">MB bank</option>
+                    <option value="TraSau" name="trasau" id="trasauu">TP bank</option>
+                </div>
+            </select>
+         </div>
+         <div class="form-grounp" id="TK-pay" style="display:none">
+            <select class="n" style="margin-left: 220px; width: 320px;height: 32px;margin-bottom: 15px;">
+                <div class="lb2" style=" border: solid 1px rgb(253, 251, 251); background-color: grey; margin-left: 130px">
+                    <option value="TraGop" name="tragop" id="tragopp">Trả góp</option>
+                    <option value="TraSau" name="trasau" id="trasauu">Mua trước trả sau</option>
+                </div>
+            </select>
+         </div>
+          <td class=""><label id="gia" class="label">Nhập giá tiền phải thanh toán:</label></td>
+          <div class="font-pay">
+          <input type="text" id="tratien" style="width:200px; height: 30px">
+          </div>
+          <td class="" ><label class="label">Nhập số thẻ:</label></td>
+          <div class="font-pay">
+          <input type="text" id="cc"  style="width:200px; height: 30px">
+          </div>
+          <a href="http://127.0.0.1:5500/S%E1%BA%A3n%20Ph%E1%BA%A9m.html"><input type="submit" value="Thanh toán" id="font-thanhtoan"></a>
+    </body>
+</html>

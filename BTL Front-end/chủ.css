@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    
+    .container{
+     width: 1200px;
+     max-width: 100%;
+     margin: auto;
+    }
+}
+header{
+   width: 1200px;
+   height: 80px;
+ background-color:rgb(61,60,62) ;
+
+} 
+header .diachi ul{
+   list-style: none;
+    
+}
+header .diachi ul li{
+   float: left;
+   line-height: 80px;
+   padding: 0 15px;
+  
+}
+header .diachi ul a{
+   color: #ffffff;
+   font-size: 15px;
+   text-decoration: none;
+   
+}
+ nav{ 
+    height: 70px;
+    background: rgb(88, 109, 113);
+ }
+ nav .logo ul{
+    list-style: none
+ }
+ nav .logo ul li{
+   float: left;
+   line-height: 70px;
+   padding: 0 40px;
+ }
+ nav .logo ul a{
+   color: blueviolet;
+   font-size :30px;;
+   text-decoration: none;
+ }
+ nav .menu ul{
+    list-style: none;
+ }
+ nav .menu ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+ }
+ nav .menu ul a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ nav .search{
+   line-height: 50px;
+ 
+ }
+  .menu, .search, .center{
+   float: left;
+
+   line-height: 50px;
+   padding: 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+ #silde{
+   background-color:rgb(61,60,62) ;
+   text-align: center;
+ }
+ article h3{
+   background-color: rgb(76, 116, 112);
+   padding: 15px ;
+   color: #0a0a0a;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+ }
+ article .main{
+   background-color: rgb(61,60,62);  
+ }
+article .main .item{
+ 
+   color: #ffffff;
+   width: 28%;
+   padding: 2%;
+   float: left;
+}
+article .lose_main{
+    background-color: rgb(61,60,62);
+}
+article .lose_main .lose_item{
+  
+   color: #ffffff;
+   width: 28%;
+   padding: 2%;
+   float: left;
+}
+.footer{
+   
+   border-top: 4px solid rgb(93, 99, 99);
+   
+}
+.column{
+
+   width: 28%;
+   padding: 2%;
+   float: left;
+   
+}
+ 
+.footer-menu{
+   list-style: none;
+   padding: 30px;
+   padding-left: 0;
+}
+.footer-item_link{
+   text-decoration: none;
+   font-size: 16PX;
+   color: #0a0a0a;
+   display: flex;
+   align-items: center;
+
+}
+.footer-item_link:hover{
+   color: red;
+
+}
+.footer-download_diachi{
+   width: 350px;
+}
+#img:hover{
+    opacity: 0.65;
+    border: 2px solid rgb(0, 255, 217);
+    transform: scale(1.05);
+}
+#img {
+   transition: transform 0.3s;
+   border: 1px solid white;
+ }
+#search1{
+   border: 1px solid aqua;
+   background: transparent;
+   font-size: 75%;
+   display:flex;
+   display:inline-block;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+}
+#search1:hover{
+   background-color: rgb(0, 221, 255);
+}
+#lhe:hover{
+    transform: scale(1.1);
+}
+.d-block{
+   width: 1350px;
+   height : 520px;
+}
+#advance{
+   border: 1px solid rgb(246, 249, 249);
+   background: transparent;
+   color:#02d1fb;
+   text-transform: uppercase;
+   transition: 0.25 ease-in-out;
+}
+#advance{
+   width: 1274px;
+   height: 40px;
+   margin-bottom: 5px ;
+   margin-left: 0px;
+   opacity: 0.7;
+   color:#ffffff;
+   background-color: aqua;
+}
+#advance:hover{
+   border: 1px solid blue;
+   color: rgb(250, 252, 252);
+   background-color: rgb(0, 200, 255);
+   opacity: 1;
+}
+#add{
+   font-family:serif;
+   color: white;
+   font-size: 150%;
+   text-align: center;
+   text-decoration: none;
+}
+#add:hover{
+   color: red;
+}
+#silde{
+   margin-top: 10px;
+}
+.nav-link:hover{
+   transform: scale(1.2);
+   color: rgb(0, 255, 242);
+}
+#mynavbar{
+   background-color: #549797;
+   opacity: 0.9;
+   width: 1650px;
+   height: 155px;
+   justify-content: center;
+}
+.nav-item:hover{
+   opacity: 1;
+   color:rgb(255, 0, 0);
+}
+#login{
+   border: 1px solid aqua;
+   font-size: 90%;
+   width: 120px;
+   height: 45px;
+   background: transparent;
+   color: aqua;
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+#submit{
+   border: 1px solid green;
+   font-size: 90%;
+   width: 120px;
+   height: 45px;
+   background: transparent;
+   color:#00ff4c;
+   margin-left: 15px;
+}
+#login:hover{
+   border: 1px solid aqua;
+   background-color: #2762f6;
+   color: rgb(255, 255, 255);
+   opacity: 0.8;
+}
+#submit:hover{
+   border: 1px solid green;
+  background-color: rgb(16, 183, 16);
+   color:#ffffff;
+   opacity: 0.8;
+}
+.dropdown{
+   background-color: #549797;
+   opacity: 1;
+}
+.collpase{
+   margin-top: 85px;
+   height: 15px;
+   border: 1px solid aqua;
+   width: 1465px;
+}
+.nav-item{
+   font-family: fantasy;
+   font-size: 150%;
+   margin-left: 55px;
+   margin-bottom: 25px;
+   justify-content: center;
+}
+.dropdown-menu{
+   display: flex;
+   justify-content: center;
+   background-color: #549797;
+}
